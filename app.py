@@ -60,6 +60,7 @@ csp = {
     'img-src': ['*', 'data:', 'blob:', '*.google-analytics.com', '*.googletagmanager.com', '*.buymeacoffee.com'],
     'script-src': ["'self'", "'unsafe-inline'", '*.google-analytics.com', '*.googletagmanager.com', '*.buymeacoffee.com'],
     'style-src': ["'self'", "'unsafe-inline'", 'fonts.googleapis.com', 'cdnjs.cloudflare.com'],
+    'font-src': ["'self'", 'data:', 'fonts.gstatic.com', 'fonts.googleapis.com', 'cdnjs.cloudflare.com'],
     'frame-src': ['www.buymeacoffee.com', 'buymeacoffee.com', "'self'"]
 }
 
