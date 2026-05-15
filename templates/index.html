@@ -89,11 +89,7 @@
       window.addEventListener('load', function () {
         const currentImages = new Set();
 
-        const sessionID = getCookie('user_id');
-        if (sessionID === null) {
-          showAlert('Invalid cookies, please click "Reset Session"');
-          return;
-        }
+        const sessionID = "{{ session }}";
 
         // Poll endpoint for new uploads
         const pollingDelay = 3000;
